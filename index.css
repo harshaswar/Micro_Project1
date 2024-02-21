@@ -1,0 +1,66 @@
+/* // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 900 */
+
+body {
+    margin: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+#white-small{
+    font-size: small;
+    color: white;
+    padding-left: 30px;
+}
+
+#head-left{
+    padding: 100px;
+    padding-right: 150px;
+    text-align: justify;
+}
+
+
+
+#header{
+    display: flex;
+    background-color: #FFCD9E;
+}
+
+input{
+    
+    border: 4px solid black;
+    border-radius: 6px;
+    width: 495px;
+    height:35px;
+}
+
+input{
+    font-size: medium;
+}
+
+button{
+    font-size: medium;
+    text-align: center;
+    background-color:#282828;
+    color: white;
+    border: 4px solid #282828;
+    padding:10px 30px 10px 30px;
+    border-radius: 4px;
+    height:45px;
+}
+
+footer{
+    padding: 50px 200px 50px 200px;
+    display: flex;
+    flex-direction: row;
+    background-color:#282828;
+    color: white;
+    justify-content:space-between;
+}
+#footer-right{
+    text-align: right;
+}
